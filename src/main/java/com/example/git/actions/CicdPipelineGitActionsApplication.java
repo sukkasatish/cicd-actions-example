@@ -11,10 +11,11 @@ public class CicdPipelineGitActionsApplication {
 
     @GetMapping("/users")
     public String getUserDetails(){
-        return "Satish Sukka";
+        return "Satish Kumar Sukka";
     }
     //commands to move code to created repository
-    /*echo "# cicd-actions-example" >> README.md
+    /*
+    echo "# cicd-actions-example" >> README.md
     git init
     git add README.md
     git commit -m "gitfirst commit"
